@@ -48,7 +48,7 @@ your backend ──POST /conversions──▶  FastAPI receiver (server.py)
 ```bash
 pip install -r requirements.txt
 cp .env.example .env          # fill in your Reddit Ads values
-pytest                        # 14 tests, no network needed
+pytest                        # 16 tests, no network needed
 
 # run the receiver
 uvicorn capi_connector.server:app --reload
